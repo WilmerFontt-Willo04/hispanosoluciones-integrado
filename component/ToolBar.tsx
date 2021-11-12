@@ -6062,13 +6062,6 @@ const ToolBar = () => {
             </div>
           </div>
         </div>
-        <script>var hostUrl = "assets/";</script>
-        {/* <script src="assets/plugins/global/plugins.bundle.js"></script>
-        <script src="assets/js/scripts.bundle.js"></script>
-        <script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
-        <script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
-        <script src="assets/js/custom/landing.js"></script>
-        <script src="assets/js/custom/pages/company/pricing.js"></script> */}
       </div>
     </div>
   );

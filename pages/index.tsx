@@ -1,11 +1,11 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import Image from "next/image";
-
-import Layout from "../component/Layout";
+import Script from "next/script";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <div className="">
         <Head>
           <title>HispanoSoluciones.Com</title>
@@ -16,15 +16,12 @@ export default function Home() {
             rel="stylesheet"
             type="text/css"
           />
-          ;
           <link
             href="assets/css/style.bundle.css"
             rel="stylesheet"
             type="text/css"
           />
-          ;
         </Head>
-
         <main className="">
           <h1 className="">
             HispanoSoluciones.Com <br />
@@ -39,17 +36,19 @@ export default function Home() {
             />
           </span>
         </main>
-
         <footer className="">
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Powered by Willo04Wf
+            Powered by Willo04WF
           </a>
         </footer>
       </div>
-    </Layout>
+      <script>var hostUrl = `assets/`;</script>
+      <script src="assets/plugins/global/plugins.bundle.js"></script>
+      <script src="assets/js/scripts.bundle.js"></script>
+    </>
   );
 }

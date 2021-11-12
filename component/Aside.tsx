@@ -1433,9 +1433,7 @@ const Aside = () => {
                               <span className="menu-bullet">
                                 <span className="bullet bullet-dot" />
                               </span>
-                              <span className="menu-title">
-                                Share Earn
-                              </span>
+                              <span className="menu-title">Share Earn</span>
                             </a>
                           </div>
                         </div>
@@ -2587,7 +2585,7 @@ const Aside = () => {
                 data-bs-dismiss-="click"
                 title="200+ in-house components and 3rd-party plugins"
               >
-                <span className="btn-label">Docs  Components</span>
+                <span className="btn-label">Docs Components</span>
                 {/*begin::Svg Icon | path: icons/duotune/general/gen005.svg*/}
                 <span className="svg-icon btn-icon svg-icon-2">
                   <svg
@@ -2699,13 +2697,6 @@ const Aside = () => {
           </div>
         </div>
       </div>
-      <script>var hostUrl = "assets/";</script>
-      <script src="assets/plugins/global/plugins.bundle.js"></script>
-      <script src="assets/js/scripts.bundle.js"></script>
-      <script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
-      <script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
-      <script src="assets/js/custom/landing.js"></script>
-      <script src="assets/js/custom/pages/company/pricing.js"></script>
     </div>
   );
 };
