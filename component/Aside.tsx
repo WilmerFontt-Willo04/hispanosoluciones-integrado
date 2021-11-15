@@ -47,14 +47,10 @@ const Aside = () => {
         rel="stylesheet"
         type="text/css"
       />
-      {/*end::Global Stylesheets Bundle*/}
-      {/*end::Head*/}
-      {/*begin::Body*/}
-      {/*begin::Main*/}
-      {/*begin::Root*/}
+
       <div className="d-flex flex-column flex-root">
         {/*begin::Page*/}
-        <div className="page d-flex flex-row flex-column-fluid">
+        <div className="page d-flex flex-row">
           {/*begin::Aside*/}
           <div
             id="kt_aside"
