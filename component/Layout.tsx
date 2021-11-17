@@ -28,7 +28,8 @@ const Layout = ({ children }) => {
             <div className="bg-white">
               <ToolBar />
             </div>
-            {children}
+            {/* Contenido */}
+            <div className="my-5">{children}</div>
             <Footer />
           </div>
         </div>
