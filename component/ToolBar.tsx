@@ -1,3 +1,4 @@
+import Link from 'next/'
 const ToolBar = () => {
   return (
     <div>
@@ -99,7 +100,7 @@ const ToolBar = () => {
                   {/*end::Aside mobile toggle*/}
                   {/*begin::Mobile logo*/}
                   <div className="d-flex align-items-center flex-grow-1 flex-lg-grow-0">
-                    <a href="../../demo1/dist/index.html" className="d-lg-none">
+                    <a href="../rutadashboard" className="d-lg-none">
                       <img
                         alt="Logo"
                         src="assets/media/logos/logo-2.svg"
@@ -138,9 +139,9 @@ const ToolBar = () => {
                           <div className="menu-item me-lg-1">
                             <a
                               className="menu-link active py-3"
-                              href="../../demo1/dist/index.html"
+                              href="../rutadashboard"
                             >
-                              <span className="menu-title">Dashboard</span>
+                              <span className="menu-title">DashboardHS</span>
                             </a>
                           </div>
                           <div

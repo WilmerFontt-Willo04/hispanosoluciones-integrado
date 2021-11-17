@@ -130,7 +130,7 @@ const Aside = () => {
                   <div className="menu-item">
                     <div className="menu-content pb-2">
                       <span className="menu-section text-muted text-uppercase fs-8 ls-1">
-                        Dashboard
+                        DashboardHS
                       </span>
                     </div>
                   </div>

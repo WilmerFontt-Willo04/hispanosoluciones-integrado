@@ -21,15 +21,6 @@ export default function Home() {
             />
           </span>
         </main>
-        <footer className="">
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by Willo04WF
-          </a>
-        </footer>
       </div>
       <script>var hostUrl = `assets/`;</script>
       <script src="assets/plugins/global/plugins.bundle.js"></script>
