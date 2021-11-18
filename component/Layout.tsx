@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 
 import Aside from "./Aside";
-import Footer from "./Footer";
 import ToolBar from "./ToolBar";
 
 const Layout = ({ children }) => {
@@ -19,21 +18,11 @@ const Layout = ({ children }) => {
   }, []);
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <div className="col-2">
-            <Aside />
-          </div>
-          <div className="col-10">
-            <div className="bg-white">
-              <ToolBar />
-            </div>
-            {/* Contenido */}
-            <div className="my-5">{children}</div>
-            <Footer />
-          </div>
-        </div>
-      </div>
+      <Aside />
+
+      {/* Contenido */}
+      {/* <div className="my-5">{children}</div> */}
+      <ToolBar />
     </>
   );
 };
